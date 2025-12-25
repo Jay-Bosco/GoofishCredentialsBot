@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "node -e \"const fs=require('fs');['dist','public','frontend/dist'].forEach(d=>{if(fs.existsSync(d))fs.rmSync(d,{recursive:true,force:true})});console.log('Cleaned: dist, public, frontend/dist')\"",
     "build": "tsc",
-    "build:frontend": "npm run build --prefix frontend && npm run copy:frontend",
+    "build:frontend": "cd frontend && npm install && npm run build && cd .. && npm run copy:frontend",
     "copy:frontend": "node -e \"const fs=require('fs');const path=require('path');function copyDir(s,d){fs.mkdirSync(d,{recursive:true});fs.readdirSync(s).forEach(f=>{const sp=path.join(s,f),dp=path.join(d,f);fs.statSync(sp).isDirectory()?copyDir(sp,dp):fs.copyFileSync(sp,dp)});} copyDir('frontend/dist/frontend/browser','public');\"",
     "dev": "npm run clean && npm run build:frontend && tsx watch src/index.ts",
     "server": "npm run clean && npm run build:frontend && npm run build && node dist/index.js",
