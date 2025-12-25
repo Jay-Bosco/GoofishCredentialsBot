@@ -34,6 +34,7 @@
     "ws": "^8.18.0"
   },
   "devDependencies": {
+    "@angular/cli": "^21.0.4",
     "@types/node": "^22.10.2",
     "@types/ws": "^8.5.13",
     "pm2": "^6.0.14",
