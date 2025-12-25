@@ -9,6 +9,9 @@ frontend/dist/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
 
+# Keep docs public folder
+!docs/public/
+
 # Data
 data/
 logs/

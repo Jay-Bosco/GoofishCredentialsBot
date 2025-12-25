@@ -1,7 +1,5 @@
 # 系统设置
 
-![系统设置](/screenshots/settings.png)
-
 路由：`/setting`
 
 系统配置页面。

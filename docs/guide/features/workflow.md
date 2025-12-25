@@ -1,6 +1,4 @@
-# 发货流程
-
-![发货流程](/screenshots/workflow.png)
+# 工作流
 
 路由：`/workflow`
 

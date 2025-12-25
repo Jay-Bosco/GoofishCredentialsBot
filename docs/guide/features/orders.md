@@ -1,7 +1,5 @@
 # 订单管理
 
-![订单管理](/screenshots/orders.png)
-
 路由：`/orders`
 
 订单查询和发货操作页面。

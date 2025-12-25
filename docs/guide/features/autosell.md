@@ -1,7 +1,5 @@
 # 自动发货
 
-![自动发货](/screenshots/autosell.png)
-
 路由：`/autosell`
 
 配置虚拟商品自动发货规则。

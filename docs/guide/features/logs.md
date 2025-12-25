@@ -1,7 +1,5 @@
 # 系统日志
 
-![系统日志](/screenshots/logs.png)
-
 路由：`/logs`
 
 查看系统运行日志。

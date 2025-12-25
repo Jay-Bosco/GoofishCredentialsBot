@@ -1,7 +1,5 @@
 # 会话管理
 
-![会话管理](/screenshots/conversations.png)
-
 路由：`/conversations`
 
 实时消息和对话历史管理。

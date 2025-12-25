@@ -1,7 +1,5 @@
 # 仪表盘
 
-![仪表盘](/screenshots/dashboard.png)
-
 路由：`/dashboard`
 
 系统运行状态概览页面。

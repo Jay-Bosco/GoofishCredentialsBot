@@ -1,7 +1,5 @@
 # 商品管理
 
-![商品管理](/screenshots/goods.png)
-
 路由：`/goods`
 
 查看账号下的商品列表。
